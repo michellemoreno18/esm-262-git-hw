@@ -1,0 +1,11 @@
+---
+title: "autopowerpractice"
+format: html
+editor: visual
+---
+
+```{r}
+library(tidyverse)
+source("R/autopower.R")
+autopower(10, 1000, 3)
+```
